@@ -115,6 +115,7 @@ def apply_mask(image, mask, color, alpha=0.5):
                                   image[:, :, c])
     return image
 
+#display_instances2 code for save file, need merge with display_instances
 def display_instances2(image, boxes, masks, class_ids, class_names,
                       scores=None, title="",
                       figsize=(16, 16), ax=None,
@@ -314,7 +315,8 @@ def display_instances(image, boxes, masks, class_ids, class_names,
 
     #after for
     #print(boxes)
-    
+#under the code is for object tracking    
+'''    
     global cbal2
     global cbal
     if cbal:
@@ -323,10 +325,6 @@ def display_instances(image, boxes, masks, class_ids, class_names,
         trackerType = "CSRT"
         a=0
         
-        if cabl2:
-            boxes=ex_box
-           
-
         #for bbox in bboxes:
         while a<i:
             y2, x2, y3, x3 = boxes[a]
@@ -370,6 +368,7 @@ def display_instances(image, boxes, masks, class_ids, class_names,
 
         ax.text(int(newbox[0]+(newbox[2]/2)),int(newbox[1]+(newbox[3]/2)), str(i), color='w', size=20, backgroundcolor='none')
         #cv2.rectangle(image, p1, p2, colors[i], 2, 1)
+'''
 
     ax.imshow(masked_image.astype(np.uint8))
     if detect:
