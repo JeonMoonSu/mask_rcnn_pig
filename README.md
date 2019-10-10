@@ -19,3 +19,12 @@ We use VGG Image Annotation tool http://www.robots.ox.ac.uk/~vgg/software/via/vi
 
 
 Not complete project (19/09/18)
+
+6.We decide segmentation only one class(pig).
+
+7.We make augmentation tool(image augmentation + add json code), and augment dataset(rotate 30degree,resize,blur) (not perfect) (add_re_blur)
+
+8.We change mrcnn/visualize.py -> object tracking with opencv tracking library.
+
+
+
