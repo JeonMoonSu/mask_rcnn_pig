@@ -1,7 +1,7 @@
 ## Pig detection project - Count pig's numbers and Seize their behavior pattern(standing,lying).
 ## Ultimately We will get pig's weight(area of pig's fixel??) with image with masking.
 
-0.Use MatterPort's Mask R-CNN Code
+0.Use MatterPort's Mask R-CNN Code https://github.com/matterport/Mask_RCNN
 
 1.We start from balloon.py (1 class)
 
@@ -26,6 +26,8 @@ Not complete project (19/09/18)
 7.We make augmentation tool(image augmentation + add json code), and augment dataset(rotate 30degree,resize,blur) (not perfect) (add_re_blur)
 
 8.We change mrcnn/visualize.py -> object tracking with opencv tracking library.
+
+(19/10/10)
 
 
 
