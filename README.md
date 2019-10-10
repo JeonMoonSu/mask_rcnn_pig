@@ -16,6 +16,7 @@
 We change mrcnn/visualize.py  -> display_instances method ( save img file here )
 In pig_images/   json file "region_attributes":{"name" : "standing_pig"} <---- class name
 We use VGG Image Annotation tool http://www.robots.ox.ac.uk/~vgg/software/via/via-1.0.6.html
+environment -> require.txt
 
 
 Not complete project (19/09/18)
@@ -25,6 +26,8 @@ Not complete project (19/09/18)
 7.We make augmentation tool(image augmentation + add json code), and augment dataset(rotate 30degree,resize,blur) (not perfect) (add_re_blur)
 
 8.We change mrcnn/visualize.py -> object tracking with opencv tracking library.
+
+
 
 
 
